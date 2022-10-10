@@ -35,10 +35,10 @@ async function loadJSON(){
                 "filename": jsonFile[key[0]].cover.large.slice(36)
             }
         ))
+    }).then(() => {
+        indizea = datubasea.length - 1
+        eremuakBete()
     })
-    indizea = datubasea.length - 1
-
-    eremuakBete()
 }
 
 
